@@ -48,6 +48,18 @@
 				"python.terminal.activateEnvironment": true,
 				"python.analysis.autoImportCompletions": true,
 				"python.analysis.typeCheckingMode": "basic",
+				"python.testing.pytestEnabled": true,
+				"python.testing.pytestArgs": [
+					"tests"
+				],
+				"python.testing.unittestEnabled": false,
+				"python.testing.unittestArgs": [
+					"-v",
+					"-s",
+					".",
+					"-p",
+					"*test*.py"
+				],
 				// ### Better Comments ###
 				"better-comments.tags": [
 					// ! Important
