@@ -26,7 +26,8 @@
 				"charliermarsh.ruff",
 				"ms-python.mypy-type-checker",
 				"ms-python.black-formatter",
-				"aaron-bond.better-comments"
+				"aaron-bond.better-comments",
+				"tamasfe.even-better-toml"
 			],
 			"settings": {
 				// ### General ###
@@ -42,6 +43,9 @@
 				"[python]": {
 					"editor.defaultFormatter": "ms-python.black-formatter"
 				},
+				"python.defaultInterpreterPath": "/workspace/.venv/bin/python",
+				"python.terminal.activateEnvInCurrentTerminal": true,
+				"python.terminal.activateEnvironment": true,
 				"python.analysis.autoImportCompletions": true,
 				"python.analysis.typeCheckingMode": "basic",
 				// ### Better Comments ###
