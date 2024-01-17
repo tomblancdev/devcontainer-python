@@ -31,3 +31,13 @@ Maybe they are some conditions to use it :
     ```
 
 **[See VsCode documentation about sharing your git credentials](https://code.visualstudio.com/remote/advancedcontainers/sharing-git-credentials)**
+
+## Troubles with Vscode extensions 🧩
+
+### Extensions does not load
+
+It appears that sometimes, when you open the devcontainer for the first time, the extensions does not load.
+
+To fix it, simply open the command palette and select `Developer: Reload Window`
+
+It will reload the window with installed extensions.
