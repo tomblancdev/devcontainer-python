@@ -22,6 +22,7 @@
 		"vscode": {
 			"extensions": [
 				"github.copilot",
+				"github.vscode-pull-request-github",
 				"ms-python.python",
 				"njpwerner.autodocstring",
 				"charliermarsh.ruff",
