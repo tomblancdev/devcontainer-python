@@ -43,6 +43,15 @@ black = "^23.12.1"
 ruff = "^0.1.13"
 mypy = "^1.8.0"
 
+[tool.ruff]
+select = ["ALL"]
+ignore = ["D211", "D213", "COM812", "ISC001"]
+fix = true
+
+[tool.pyright]
+venvPath = ".venv"
+typeCheckingMode = "off"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
