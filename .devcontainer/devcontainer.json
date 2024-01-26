@@ -16,11 +16,12 @@
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// 👇 Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "/bin/sh /workspace/.devcontainer/scripts/post-create.sh",
+	"postCreateCommand": "/workspace/.devcontainer/scripts/post-create.sh",
 	// 👇 Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"github.copilot",
 				"ms-python.python",
 				"njpwerner.autodocstring",
 				"charliermarsh.ruff",

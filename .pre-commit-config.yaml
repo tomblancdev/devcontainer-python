@@ -15,10 +15,6 @@ repos:
     hooks:
     -   id: check-json5
 
--   repo: https://github.com/psf/black
-    rev: 22.10.0
-    hooks:
-    -   id: black
 -   repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.1.13
     hooks:

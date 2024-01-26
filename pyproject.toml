@@ -36,10 +36,10 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.11" # ! 👈 Change this to your Python version
+pytest = "^7.4.4"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.12.1"
 ruff = "^0.1.13"
 mypy = "^1.8.0"
 
